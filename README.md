@@ -1,8 +1,6 @@
 # 📺 Netflix Clone  
 A single-page **Netflix-like app** built using **React, Vite, Tailwind CSS, Appwrite, and TMDB API**.  
 
-🔥 **Streamlined, Fast, and Interactive.**  
-
 ---
 
 ## 🚀 Features  
