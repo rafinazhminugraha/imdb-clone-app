@@ -4,10 +4,10 @@ A single-page **Netflix-like app** built using **React, Vite, Tailwind CSS, Appw
 ---
 
 ## 🚀 Features  
-✅ **Trending Movies** – Browse the most popular movies  
-🔍 **Search Functionality** – Find any movie instantly  
-📊 **User-Based Trending Algorithm** – Simulated top trending movies  
-⚡ **Optimized Performance** – Built with Vite & Tailwind for speed  
+**Trending Movies** – Browse the most popular movies  
+**Search Functionality** – Find any movie instantly  
+**User-Based Trending Algorithm** – Simulated top trending movies  
+**Optimized Performance** – Built with Vite & Tailwind for speed  
 
 ---
 
