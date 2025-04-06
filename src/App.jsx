@@ -12,7 +12,7 @@ const App = () => {
         <header>
           <img src="./hero.png" alt="Hero Banner" />
           <h1>
-            Find All <span className='text-gradient'>Movies</span> Without Wasting Your Time
+            Find All <span className='text-gradient'>Movies</span> With a Cup of Coffee
           </h1>
         </header>
 
