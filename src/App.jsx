@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Search from './components/Search.jsx'
 
 const App = () => {
-  const [searchTerm, setsearchTerm] = useState('Avengers');
+  const [searchTerm, setsearchTerm] = useState('');
 
   return (
     <main>
@@ -12,7 +12,7 @@ const App = () => {
         <header>
           <img src="./hero.png" alt="Hero Banner" />
           <h1>
-            Find All <span className='text-gradient'>Movies</span> With a Cup of Coffee
+            Find <span className='text-gradient'>Movies</span> You'll Enjoy Without the Hassle
           </h1>
         </header>
 
