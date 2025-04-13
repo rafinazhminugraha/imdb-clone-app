@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useDebounce } from 'react-use';
 import Search from './components/Search.jsx';
 import Spinner from './components/spinner';
 import MovieCard from './components/MovieCard.jsx';
@@ -18,6 +19,9 @@ const App = () => {
   const [errorMessage, seterrorMessage] = useState('');
   const [movieList, setmovieList] = useState([]);
   const [isLoading, setisLoading] = useState(false);
+  const [debouncedSearchTerm, setdebouncedSearchTerm] = useState('');
+
+  useDebounce(() => setdebouncedSearchTerm(searchTerm), 1000, [searchTerm]);
 
   const fetchMovies = async (query='') => {
     setisLoading(true);
@@ -50,8 +54,8 @@ const App = () => {
   }
 
   useEffect(() => {
-    fetchMovies(searchTerm);
-  }, [searchTerm])
+    fetchMovies(debouncedSearchTerm);
+  }, [debouncedSearchTerm])
 
   return (
     <main>
@@ -73,6 +77,8 @@ const App = () => {
             <Spinner />
           ) : errorMessage ? (
             <p className='text-red-500'>{errorMessage}</p>
+          ) : movieList.length === 0 ? (
+            <p className='text-white'>No Result Found for "{debouncedSearchTerm}"</p>
           ) : (
             <ul>
               {movieList.map((movie) => (
