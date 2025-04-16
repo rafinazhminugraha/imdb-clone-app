@@ -1,5 +1,5 @@
-# 📺 Netflix Clone  
-A single-page **Netflix-like app** built using **React, Vite, Tailwind CSS, Appwrite, and TMDB API**.  
+# 📺 IMDB Clone  
+A single-page **IMDB-like app** built using **React, Vite, Tailwind CSS, Appwrite, and TMDB API**.  
 
 ---
 
