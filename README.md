@@ -19,3 +19,6 @@ A single-page **IMDB-like app** built using **React, Vite, Tailwind CSS, Appwrit
 | 🎨 **Tailwind CSS** | Modern styling with utility classes |
 | 🛢 **Appwrite** | Backend for tracking searches |
 | 🎞 **TMDB API** | Movie database for fetching content |
+
+---
+[**🔗 View Live Demo**](https://imdb-clone-app-one.vercel.app/)
