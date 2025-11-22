@@ -121,7 +121,7 @@ const App = () => {
       <div className="wrapper">
         <header>
           {/* Gambar banner di header */}
-          <img src="./hero.png" alt="Hero Banner" />
+          <img src="/hero.png" alt="Hero Banner" />
           {/* Judul aplikasi dengan highlight pada kata "Movies" */}
           <h1>
             Find <span className="text-gradient">Movies</span> You'll Enjoy Without the Hassle
